@@ -22,6 +22,7 @@ const doubled = originals.map(function (item) {
   return item * 2;
 });
 console.log(doubled); // [2, 4, 6]
+
 const textBox = document.querySelector("#textBox");
 const output = document.querySelector("#output");
 
